@@ -16,7 +16,7 @@ const ProductCard = (props) => {
       />
       <div className="card-body cardDesc">
         <h5 className="card-title">{props.prod.title.substring(0, 12)}</h5>
-        <p className="card-text prodPrice">Rs.{props.prod.price}</p>
+        <p className="card-text prodPrice">Rs.{Math.ceil(props.prod.price * 85)}</p>
       </div>
       <div className="btn btn-primary prodBuy">Buy Now</div>
     </NavLink>
