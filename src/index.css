@@ -3,3 +3,27 @@
     padding: 0rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/* 
+@media (max-width: 992px){
+    html{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px){
+    html{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px){
+    html{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 378px){
+    html{
+        font-size: 4px;
+    }
+} */
